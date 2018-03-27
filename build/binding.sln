@@ -1,0 +1,51 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(Users)", "..\Users", "{83FD2216-DE8C-3729-D4EA-3618B14F3F2D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(cuda-napi)", "..\Users\jeffa\workspace\cuda-napi", "{36D77600-7AFD-6F85-F62D-902E29411EAF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(jeffa)", "..\Users\jeffa", "{78D970CC-7CB0-4BDD-C3AF-1BEB290BDB25}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(node-addon-api)", "..\Users\jeffa\workspace\cuda-napi\node_modules\node-addon-api", "{5F75D5F8-D464-36CD-B3D9-BFA413F95E99}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(node_modules)", "..\Users\jeffa\workspace\cuda-napi\node_modules", "{8E154955-9239-270B-1618-14CC058ABAC4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(src)", "..\Users\jeffa\workspace\cuda-napi\node_modules\node-addon-api\src", "{565746B5-74B6-F0F4-CD1B-E5978A10EAFD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(workspace)", "..\Users\jeffa\workspace", "{33D620B2-3468-F55C-9979-F25DA703B2B0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cuda-napi-native", "cuda-napi-native.vcxproj", "{FBA91CAB-7C41-CEC5-A85D-7B52AEB5C43B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FACDC518-14DC-272F-237A-0DDE4FFBF5AD} = {FACDC518-14DC-272F-237A-0DDE4FFBF5AD}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "nothing", "..\node_modules\node-addon-api\src\nothing.vcxproj", "{FACDC518-14DC-272F-237A-0DDE4FFBF5AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FACDC518-14DC-272F-237A-0DDE4FFBF5AD}.Debug|x64.ActiveCfg = Debug|x64
+		{FACDC518-14DC-272F-237A-0DDE4FFBF5AD}.Debug|x64.Build.0 = Debug|x64
+		{FACDC518-14DC-272F-237A-0DDE4FFBF5AD}.Release|x64.ActiveCfg = Release|x64
+		{FACDC518-14DC-272F-237A-0DDE4FFBF5AD}.Release|x64.Build.0 = Release|x64
+		{FBA91CAB-7C41-CEC5-A85D-7B52AEB5C43B}.Debug|x64.ActiveCfg = Debug|x64
+		{FBA91CAB-7C41-CEC5-A85D-7B52AEB5C43B}.Debug|x64.Build.0 = Debug|x64
+		{FBA91CAB-7C41-CEC5-A85D-7B52AEB5C43B}.Release|x64.ActiveCfg = Release|x64
+		{FBA91CAB-7C41-CEC5-A85D-7B52AEB5C43B}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{78D970CC-7CB0-4BDD-C3AF-1BEB290BDB25} = {83FD2216-DE8C-3729-D4EA-3618B14F3F2D}
+		{8E154955-9239-270B-1618-14CC058ABAC4} = {36D77600-7AFD-6F85-F62D-902E29411EAF}
+		{33D620B2-3468-F55C-9979-F25DA703B2B0} = {78D970CC-7CB0-4BDD-C3AF-1BEB290BDB25}
+		{565746B5-74B6-F0F4-CD1B-E5978A10EAFD} = {5F75D5F8-D464-36CD-B3D9-BFA413F95E99}
+		{5F75D5F8-D464-36CD-B3D9-BFA413F95E99} = {8E154955-9239-270B-1618-14CC058ABAC4}
+		{FACDC518-14DC-272F-237A-0DDE4FFBF5AD} = {565746B5-74B6-F0F4-CD1B-E5978A10EAFD}
+		{36D77600-7AFD-6F85-F62D-902E29411EAF} = {33D620B2-3468-F55C-9979-F25DA703B2B0}
+	EndGlobalSection
+EndGlobal

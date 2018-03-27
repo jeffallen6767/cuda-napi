@@ -1,0 +1,30 @@
+{
+  "main": "lib/binding.js",
+  "dependencies": {
+    "node-addon-api": "^1.1.0"
+  },
+  "scripts": {
+    "test": "node --napi-modules ./test/test_binding.js"
+  },
+  "gypfile": true,
+  "name": "cuda-napi",
+  "description": "cuda for nodejs",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeffallen6767/cuda-napi.git"
+  },
+  "keywords": [
+    "cuda",
+    "nodejs",
+    "node.js",
+    "napi",
+    "n-api"
+  ],
+  "author": "Jeff Allen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeffallen6767/cuda-napi/issues"
+  },
+  "homepage": "https://github.com/jeffallen6767/cuda-napi#readme"
+}
